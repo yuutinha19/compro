@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const bot = new Telegraf('7522166105:AAHIRTLQ0kanfhNNPmy7MGjcqepKG1mnGrg')
+const bot = new Telegraf(process.env.BOT_TOKEN)
 const SERVER_URL = process.env.RENDER_URL 
 
 
